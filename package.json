@@ -1,0 +1,15 @@
+{
+  "name": "cultivation-discord-bot",
+  "version": "1.0.0",
+  "description": "Advanced modular Discord cultivation bot with slash commands and rendered profile cards.",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js && node --check src/core/CultivationBot.js && node --check src/core/Player.js && node --check src/services/GameService.js && node --check src/services/WorldService.js && node --check src/services/rendering/ProfileCardService.js && node --check src/data/customization.js && node --check src/data/realms.js && node --check src/utils/random.js && node --check src/slashCommands/start.js && node --check src/slashCommands/name.js && node --check src/slashCommands/profile.js && node --check src/slashCommands/help.js && node --check src/slashCommands/route.js && node --check src/slashCommands/meditate.js && node --check src/slashCommands/breakthrough.js && node --check src/slashCommands/hunt.js && node --check src/slashCommands/kill.js && node --check src/slashCommands/sect.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
