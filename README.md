@@ -9,6 +9,10 @@ Advanced modular Discord bot with:
 - Randomized races, spiritual roots, and cultivation talents
 - 6 rarities with **120 entries each per rarity** for races, roots, and talents (**720 entries per category**)
 - Rarity itself is randomized (best traits roll in godlike, weakest in common)
+- Massive realm ladder: **8 bands × 100 tiers each**, and every tier has **9 stages (I-IX)**
+- Realm bands: Mortal, Senior, Immortal, Heavenly, Divine, Saint, Dao, Eternal
+- Randomized races, spiritual roots, and talents
+- 6 rarities with **100 entries each per category**
 - PvE, PvP, route system, sect creation/war/upgrades
 - Advanced `/profile` SVG card rendering
 
@@ -33,4 +37,5 @@ npm start
 
 ## Notes
 - Trait assignment is fully randomized when `/start` is used.
+- Trait assignment is randomized when `/start` is used.
 - Name is manually editable through `/name`.
